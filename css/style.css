@@ -64,14 +64,20 @@
   min-width: 100%; /* image s'adapte à son conteneur */
   height: auto; /* conserver les proportions */
 }
-
+.width-car {
+  max-width: 65vw;
+}
 
 
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 @media screen and (max-width: 1200px) {
+  .width-car {
+    max-width: 100vw;
+  }
+  
   .t-25 {
     width: 55%;
-      /* background-color: red; */
+      background-color: red;
 
   }
 
@@ -105,16 +111,17 @@
 }
 
 @media all and (min-width: 760px) and (max-width: 1200px) {
+  .width-car {
+    max-width: 100vw;
+    
 
+  }
   .t-25{
     width: 55%;
     background-color:rgba(237, 219, 195, 0.327);
   }
 
-  .sizeboxserv{
-    width: 35%;
-    background-color:blueviolet;
-  }
+  
 
   .tcard {
     width: 40%;
