@@ -32,14 +32,7 @@
   src: url("/font/BRLNSDB.ttf");
   
 }
-.h2__titre {
-  font-size : 3em;
-  font-family: "titrage";
-}
-h4,h3,h2 {
-  font-family: "titrage";
-  font-size : 1em;
-}
+
 
 .logo {
   max-width: 5%;
