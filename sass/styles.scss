@@ -14,10 +14,13 @@ $danger:        $brun !default;
 .h2__titre {
     font-size : 3em;
     font-family: "titrage";
+    color :$bleu-vert;
   }
   h4,h3,h2 {
     font-family: "titrage";
     font-size : 1em;
+    color :$bleu-vert;
+    
   }
 a {font-family: "titrage";}
 
