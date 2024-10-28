@@ -27,44 +27,34 @@
 
 } */
 
-/* header button {
-  height: 80px;
-  height: 80px;
-} */
-
 @font-face {
   font-family: "titrage";
   src: url("/font/BRLNSDB.ttf");
   
 }
-.toto {
-  width: 55%;
-  text-align: center;
-}
-
 
 
 .logo {
   max-width: 5%;
 
 }
-h1,h2,h3 {
-  font-size: clamp(1.6rem, 2.5vw, 2.4rem) !important;
-  font-family: "titrage";
-} 
 
 .cardheader {
-  height: 180px;
+  height: 220px;
+  
 }
+
 .cardheader img {
   max-width: 100%;
   height: 170px;
+  text-align: center;
+  
 }
-/* .t-25{
-  width: 45%;
+.t-25{
+  width: 38%;
   text-align: center;
  
-} */
+}
 
 .sizeboxserv{
   width: 30%;
@@ -75,72 +65,24 @@ h1,h2,h3 {
   height: auto; /* conserver les proportions */
 }
 
-/* .cent {
- 
-  display: flex; 
-  
-  justify-content: center; 
-  align-items: center;
-}  */
-
-/* .t-i-c {
-  max-width: 75%;
-  margin: auto;
- 
-} */
-
-
-/* .dune {
-  background-image: url("img/dune-6912829_1280.jpg");
-  background-image: no-repeat; 
-  background-size:contain;
-  height: 100vh;
-  backdrop-filter: blur(45px);
-} */
-/* .card {
-  display: flex; 
-  flex-wrap: nowrap;
-  justify-content: center; 
-  align-items: center;
-} */ 
-/* .carousel-inner {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; }*/
-  
-  
-
-
-
-
-/* Paragraphes en bleu par défaut */
 
 
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 @media screen and (max-width: 1200px) {
   .t-25 {
     width: 55%;
-      background-color: red;
+      /* background-color: red; */
 
   }
 
-  /* .t-i-c {
-    min-width:100%;
-    margin: auto;
-   
-  } */
- 
+  .inv {
+    display: none;
+  }
 
   .sizeboxserv{
     width: 25%;
   }
-  /* .pecran {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
-    width: 100%;
-  } */
+ 
   .logo {
     width: 12%;
     
@@ -158,7 +100,7 @@ h1,h2,h3 {
   
   .cardheader img {
     max-width: 100%;
-    height: 170px;
+    height: 190px;
   }
 }
 
@@ -166,7 +108,7 @@ h1,h2,h3 {
 
   .t-25{
     width: 55%;
-    background-color:blueviolet;
+    background-color:rgba(237, 219, 195, 0.327);
   }
 
   .sizeboxserv{
@@ -177,7 +119,7 @@ h1,h2,h3 {
   .tcard {
     width: 40%;
     align-self: stretch !important;
-    background-color:blueviolet;
+    background-color:rgb(43, 128, 226);
   }
 } 
 

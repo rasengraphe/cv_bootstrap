@@ -1,0 +1,28 @@
+//variables
+$bleu-vert : #2A4E5C;
+$bleu-claire : #DFF7FF;
+$bleu-fonce : #116B8E;
+$brun : #874705;
+
+
+
+$beige: #F7F4EF;
+$light:  $beige !default;
+$primary:       $bleu-vert !default;
+$danger:        $brun !default;
+
+
+
+.h2__titre {
+    font-size : 3em;
+    font-family: "titrage";
+}
+h4,h3,h2 {
+    font-family: "titrage";
+    font-size : 1em;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
