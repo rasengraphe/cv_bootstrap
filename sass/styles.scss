@@ -1,7 +1,8 @@
 
 @font-face {
   font-family: "titrage";
-  src: url("/font/BRLNSDB.ttf");
+  src: url("/font/ProstoOne-Regular.ttf"),
+    url("font/BRLNSDB.ttf");
 }
 
 .titre_du_h1 {
