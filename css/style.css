@@ -90,6 +90,7 @@
 }
 
 @media all and (min-width: 760px) and (max-width: 1200px) {
+  /* carte taille mes travaux */
   .t-25 {
     width: 55%;
     background-color: rgba(238, 197, 182, 0.247);
@@ -100,6 +101,8 @@
     align-self: stretch !important;
     background-color: rgb(43, 128, 226);
   }
+
+  
 }
 
 @media screen and (max-width: 430px) {
