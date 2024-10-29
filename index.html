@@ -10,7 +10,7 @@
 
 
   <link rel="stylesheet" href="css/styles.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
 
 </head>
 
@@ -28,21 +28,19 @@
         </div>
         <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
           <div class="navbar-nav ">
-            <ul class="nav">
-              <li class="nav-item border border-primary rounded m-4  ">
-                <a class="nav-link active" aria-current="page" href="#acceuil">Accueil</a>
-              </li>
-              <li class="nav-item border border-primary rounded m-4">
+            <ul class="nav d-flex justify-content-center align-items-center gap-1 gap-lg-5">
+              
+              <li class="nav-item border border-primary rounded ">
                 <a class="nav-link" href="#Compétences">Compétences</a>
               </li>
-              <li class="nav-item border border-primary rounded m-4">
+              <li class="nav-item border border-primary rounded ">
                 <a class="nav-link" href="#Portfolio">Portfolio</a>
               </li>
-              <li class="nav-item border border-primary rounded m-4">
+              <li class="nav-item border border-primary rounded ">
                 <a class="nav-link" href="#Services">Services</a>
               </li>
-              <li class="nav-item border border-primary rounded m-4">
-                <a class="nav-link" href="#Contact">Contact</a>
+              <li class="nav-item border border-primary rounded bg-primary ">
+                <a class="nav-link color-c" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -58,29 +56,6 @@
     </button>
 
 
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ">
-        <li class="nav-item">
-          <a href="#" class="nav-link">acceuil</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Compétences</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Services</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Contact</a>
-        </li>
-
-      </ul>
-
-
-
-    </div>
 
     </div>
     </nav>
@@ -91,7 +66,7 @@
     <section class="pb-5">
       <div class="container-fluid">
 
-        <div class=" row text-center text-dark vh-100 justify-content-center align-items-center "
+        <div class=" row text-center text-dark vh-100 d-flex justify-content-center align-items-center "
           style="background-image: url('img/fond.jpg'); background-image: no-repeat; background-size: cover;height: 100vh">
           <div class="col-md-3"></div>
 
@@ -125,27 +100,27 @@
 
 
 
-    <section class="py-1">
+    <section class="py-2">
       <div class="container">
 
         <!-- presentation avec 3 colonnes -->
         <div class="row gy-4 bg-light  align-items-center  ">
 
-          <div class="col-12 col-md-12 col-lg-3 text-center p-2  offset-lg-2">
+          <div class="col-lg-3 text-center p-2  offset-lg-2">
             <h3>Bonjour <br class="inv"> je m'appelle <br class="inv">Sébastien Marchal</h3>
 
 
           </div>
 
-          <div class="col-12 col-md-12 col-lg-2  text-center">
+          <div class="col-lg-2  text-center">
             <img class="img-fluid rounded-circle" src="img\identite.jpg" alt="Sébastien Marchal">
           </div>
 
-          <div class="col-12 col-md-12 col-lg-5 p-5">
+          <div class="col-lg-5 p-5">
             <p>Avec 12 ans d'expérience dans le développement web et l'e-commerce, j'ai développé une expertise solide
               dans la création de solutions digitales performantes.</p>
 
-            <p>Passionné par les nouvelles technologies, je suis toujours à l'affût des dernières tendances pour
+            <p>Passionné par les nouvelles technologies, <div class="badge bg-primary text-wrap">je suis toujours à l'affût des dernières tendances</div> pour
               proposer des solutions innovantes et personnalisées.</p>
 
             <p>Mon objectif est d'accompagner mes clients dans la croissance de leur activité en ligne en optimisant
@@ -163,14 +138,14 @@
       <div class="container bg-light p-5">
         <h2 class="text-center h2__titre ">Mes Compétences</h2>
         <div class="row mt-5">
-          <div class="col-12 col-md-6 mb-5">
+          <div class="col-md-6">
             <p>Je possède un ensemble de compétences diversifiées qui me permettent d'exceller dans le domaine du design
               UX/UI. Maîtrisant des outils tels que Figma et Adobe Creative Suite, je suis capable de créer des
-              maquettes, des prototypes interactifs et des designs visuels attrayants. Mes connaissances en HTML et CSS
+              maquettes, des prototypes interactifs et des designs visuels attrayants. <strong class=""> Mes connaissances en HTML et CSS</strong>
               me permettent d'assurer une bonne communication avec les équipes techniques et de garantir la faisabilité
               des concepts que je développe. </p>
           </div>
-          <div class="col-12 col-md-6 ">
+          <div class="col-md-6">
             <p>Je suis également expérimenté en recherche utilisateur, ce qui me permet de comprendre en profondeur les
               besoins et attentes des utilisateurs. Mon approche collaborative et ma capacité à co-concevoir des
               produits en intégrant les retours des utilisateurs sont des atouts clés dans mes projets.</p>
@@ -180,9 +155,9 @@
         <!--CD-->
 
 
-        <!-- Example Code -->
+        <!-- Carousel -->
 
-        <div class="container d-flex justify-content-center align-items-center  width-car">
+        <div class="container d-flex justify-content-center align-items-center">
           <div id="carouselExample" class="carousel slide  ">
 
             <div class="carousel-inner">
@@ -380,17 +355,17 @@
       </div>
     </section>
     <!-- presentation mes travaux -->
-    <section id="Portfolio" class="py-1 ">
+    <section id="Portfolio" class="py-2 ">
       <div class="container bg-light p-5">
         <h2 class="text-center h2__titre">Mes travaux</h2>
         <div class="row mt-5">
-          <div class="col-12 col-md-6">
+          <div class=" col-md-6">
             <p>Au cours de mes précédentes expériences professionnelles et de mes études, j'ai eu l'opportunité de
-              réaliser plusieurs projets significatifs qui illustrent ma capacité à créer des solutions innovantes et
+              réaliser plusieurs projets significatifs qui illustrent ma capacité à créer des <mark>solutions innovantes</mark> et
               efficaces. Parmi mes réalisations, j'ai conçu une interface utilisateur pour une application mobile, où
               j'ai mené des sessions de tests utilisateurs pour affiner l'expérience. .</p>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-md-6">
             <p>J'ai également développé des maquettes pour un site web d'e-commerce, intégrant des éléments visuels qui
               améliorent l'engagement et la conversion des utilisateurs. Mes travaux reflètent non seulement ma maîtrise
               des outils de design, mais aussi mon engagement à produire des solutions centrées sur l'utilisateur.</p>
@@ -413,7 +388,7 @@
 
             <!--carte 1MT-->
 
-            <div class=" col-md-3 card p-1  my-3 mx-3  t-25 ">
+            <div class=" col-md-3 card p-1  m-3  t-25 ">
 
               <div class="card-body">
 
@@ -421,7 +396,7 @@
 
                 <div class="text-center">
                   <img src="img/fight-club-portfolio.jpg"
-                    class="img-fluid t-img-s rounded-3 border border-danger border-2 rounded" alt="...">
+                    class="img-fluid rounded-3 border border-danger border-2 rounded" alt="...">
                 </div>
 
                 <p class="card-text py-3">Le site Fight Club a été constuit avec les langages HTML et CSS, celui-ci fut
@@ -442,7 +417,7 @@
                 <h3 class="card-title py-2">Logo Makasi</h3>
                 <div class="text-center">
                   <img src="img/makasi-portfolio.jpg"
-                    class="img-fluid t-img-s rounded-3 border border-danger border-2 rounded" alt="...">
+                    class="img-fluid rounded-3 border border-danger border-2 rounded" alt="...">
                 </div>
                 <p class="card-text py-3">La création du logo Makasi, a pour but de capturer l'esprit des vacances au
                   bord de mer. Elle offre des produits authentiques inspirés des iles. Les couleurs marines du logo
@@ -461,7 +436,7 @@
                 <h3 class="card-title py-2">CSD</h3>
                 <div class="text-center">
                   <img src="img/CSD-portfolio.jpg"
-                    class="img-fluid t-img-s rounded-3 border border-danger border-2 rounded" alt="...">
+                    class="img-fluid  rounded-3 border border-danger border-2 rounded" alt="...">
                 </div>
                 <p class="card-text py-3">J’ai conçu l'identité visuelle' de CSD, incluant le logo, la brochure et des
                   flyers. Chaque élément reflète l’identité de la marque. Cette expérience a affiné mes compétences en
@@ -480,21 +455,21 @@
     </section>
 
     <!-- presentation mes services -->
-    <section id="Services" class="py-1 ">
+    <section id="Services" class="py-2 ">
       <div class="container bg-light p-5">
         <h2 class="text-center h2__titre">Mes services</h2>
         <div class="row mt-5">
-          <div class="col-12 col-md-6">
+          <div class="col-md-6">
             <p>Je propose une gamme de services adaptés aux besoins des entreprises souhaitant améliorer leur expérience
-              utilisateur. Mes services incluent la recherche utilisateur, l'analyse des besoins, la conception
-              d'interfaces intuitives et visuellement attrayantes, ainsi que la création de prototypes interactifs pour
+              utilisateur. <mark>Mes services incluent la recherche utilisateur, l'analyse des besoins, la conception
+              d'interfaces intuitives et visuellement attrayantes, </mark>ainsi que la création de prototypes interactifs pour
               tester des idées.</p>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-md-6">
             <p>Je peux également accompagner les équipes dans l'intégration de principes d'accessibilité et d'ergonomie
               pour garantir une expérience inclusive. Mon approche est axée sur la collaboration et l'implication des
-              parties prenantes à chaque étape du processus, afin de délivrer des résultats alignés avec les objectifs
-              commerciaux.</p>
+              parties prenantes à chaque étape du processus, afin de délivrer <strong>des résultats alignés avec les objectifs
+              commerciaux.</strong></p>
           </div>
 
         </div>
@@ -505,7 +480,7 @@
         <div class="container text-center  bg-light py-5">
 
 
-          <div class="row align-center justify-content-center   py-4 g-5 ">
+          <div class="row align-center justify-content-center gap-3  py-4 ">
 
 
             <!--  groupe1 -->
@@ -514,14 +489,14 @@
             <!--carte 1MS-->
 
             <div
-              class=" text-primary tcard card col-12 col-sm-6 col-md-5 col-lg-4 p-1 mx-4 bg-light rounded-3 border border-primary border-2 ">
+              class=" text-primary tcard card  col-md-6 col-lg-4 p-1  bg-light rounded-3 border border-primary border-2 gap-1">
 
               <div class="card-body">
 
                 <h2 class=" card-title fw-bold py-2">Photographie</h2>
 
                 <div class="text-center">
-                  <img src="img/camera-portfolio.jpg" class="img-fluid t-img-s border border-light border-2 rounded "
+                  <img src="img/camera-portfolio.jpg" class="img-fluid border border-light border-2 rounded "
                     alt="...">
                 </div>
 
@@ -539,14 +514,14 @@
             <!--carte 2MS-->
 
             <div
-              class="  text-primary tcard card col-12 col-sm-6 col-md-5 col-lg-4 p-1 mx-4 bg-light rounded-3 border border-primary border-2">
+              class=" text-primary tcard card  col-md-6 col-lg-4 p-1  bg-light rounded-3 border border-primary border-2">
 
               <div class="card-body">
 
                 <h2 class="card-title fw-bold py-2">Web designer</h2>
                 <div class="text-center">
                   <img src="img/webdesigner-portfolio.jpg"
-                    class="img-fluid t-img-s border border-light border-2 rounded " alt="...">
+                    class="img-fluid  border border-light border-2 rounded " alt="...">
                 </div>
                 <p class="card-text py-3">Transformez votre vision en réalité avec un webdesigner dédié. Je crée des
                   sites esthétiques et fonctionnels qui captivent vos visiteurs et renforcent votre marque. Ensemble,
@@ -578,13 +553,13 @@
 
 
 
-          <div class="row align-center justify-content-center py-4 g-5">
+          <div class="row align-center justify-content-center gap-3  py-4">
 
 
             <!--carte 3MS-->
 
             <div
-              class="  text-primary tcard card col-12 col-sm-6 col-md-5 col-lg-4 p-1 mx-4 bg-light rounded-3 border border-primary border-2">
+              class="text-primary tcard card  col-md-6 col-lg-4 p-1  bg-light rounded-3 border border-primary border-2">
 
               <div class="card-body">
 
@@ -592,7 +567,7 @@
 
                 <div class="text-center">
                   <img src="img/site-vitrine-portfolio.jpg"
-                    class="img-fluid t-img-s border border-light border-2 rounded " alt="...">
+                    class="img-fluid  border border-light border-2 rounded " alt="...">
                 </div>
 
                 <p class="card-text py-3">Mettez en valeur votre entreprise avec un site vitrine sur mesure. Je conçois
@@ -608,14 +583,14 @@
             <!--carte 4MS-->
 
             <div
-              class=" text-primary tcard card col-12 col-sm-6 col-md-5 col-lg-4 p-1 mx-4 bg-light rounded-3 border border-primary border-2">
+              class="text-primary tcard card  col-md-6 col-lg-4 p-1  bg-light rounded-3 border border-primary border-2">
 
               <div class="card-body">
 
                 <h2 class="card-title fw-bold py-2">Création site e-commerce</h2>
                 <div class="text-center">
                   <img src="img/site-e-commerce-portfolio.jpg"
-                    class="img-fluid t-img-s border border-light border-2 rounded " alt="...">
+                    class="img-fluid  border border-light border-2 rounded " alt="...">
                 </div>
                 <p class="card-text py-3">Lancez votre boutique en ligne avec un site e-commerce sur mesure. Je conçois
                   des plateformes esthétiques et fonctionnelles, optimisées pour convertir vos visiteurs en clients.
@@ -652,25 +627,25 @@
 
 
 
-    <!-- presentation mes contactez -->
-    <section id="Contact" class="py-5 ">
+    <!--  me contacter -->
+    <section id="Contact" class="py-2 ">
       <div class="container bg-light p-5">
         <h2 class="text-center h2__titre">Me contacter</h2>
         <div class="row mt-5">
-          <div class="col-12 col-md-6 ">
+          <div class=" col-md-6 ">
             <p>Si vous souhaitez discuter de vos besoins en matière de design UX/UI, de developpement de sire web, de
               création graphique ou si vous avez des questions concernant mes compétences et services, n'hésitez pas à
               me contacter.
             </p>
           </div>
-          <div class="col-12 col-md-6">
-            <p>Je suis à votre disposition pour échanger sur vos projets et voir comment je peux vous aider à atteindre
-              vos objectifs. Vous pouvez me joindre par e-mail à ou par téléphone. Je serai ravi de vous répondre dans
+          <div class=" col-md-6">
+            <p><mark>Je suis à votre disposition pour échanger sur vos projets </mark>et voir comment je peux vous aider à atteindre
+              vos objectifs. <strong>Vous pouvez me joindre par e-mail à ou par téléphone.</strong> Je serai ravi de vous répondre dans
               les plus brefs délais.</p>
           </div>
 
         </div>
-        <div class="col-12  col-md-12">
+        <div class=" ">
           <form class="row">
             <div class="col-6 my-2">
               <label for="firstname" class="form-label">Prénom</label>
@@ -704,7 +679,7 @@
   </main>
   <footer>
     <!-- flech-->
-    <div class="container text-center bg-light pt-5">
+    <div class="container text-center bg-light pt-2">
       <div class="row  ">
         <div class=" col-3"></div>
         <div class="col-6 ">
@@ -729,7 +704,7 @@
         <div class="col-6 ">
           <h4>Marchal Sébastien ©2024</h4>
           <a href="https://github.com/rasengraphe" target="_blank"><img src="img/png-github.png" alt="Git Hub"></a>
-          <a href="https://www.linkedin.com/in/s%C3%A9bastien-marchal33/" target="_blank"><img
+          <a href="https://www.linkedin.com/in/sebastien-marchal33/" target="_blank"><img
               src="img/png-linkdinl.png" alt="Linkedin"></a>
 
 
