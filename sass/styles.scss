@@ -1,3 +1,86 @@
+
+@font-face {
+  font-family: "titrage";
+  src: url("/font/BRLNSDB.ttf");
+}
+
+.titre_du_h1 {
+  font-size: 4em;
+}
+.logo {
+  max-width: 5%;
+}
+
+.cardheader {
+  height: 220px;
+}
+
+.cardheader img {
+  max-width: 100%;
+  height: 170px;
+  text-align: center;
+}
+/* carte taille mes travaux */
+.t-25 {
+  width: 38%;
+  text-align: center;
+  background-color: rgba(238, 186, 147, 0.193);
+}
+
+.color-c
+{
+    
+    color: #efeaeb !important;
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1200px) {
+  /* carte taille mes travaux */
+  .t-25 {
+    width: 100%;
+    background-color: rgba(195, 237, 210, 0.327);
+  }
+  /* texte bonjour je m'app sur 3 en 1 ligne */
+  .inv {
+    display: none;
+  }
+
+  .logo {
+    width: 12%;
+  }
+  /* agit sur mes travaux et mes compétences */
+  .card {
+    width: 100%;
+    align-self: stretch !important;
+    /* background-color: rgb(4, 100, 255) */
+  }
+
+  /* taille des card dans le slider */
+  .cardheader img {
+    max-width: 100%;
+    height: 190px;
+  }
+}
+
+@media all and (min-width: 760px) and (max-width: 1200px) {
+  /* carte taille mes travaux */
+  .t-25 {
+    width: 55%;
+    background-color: rgba(238, 197, 182, 0.247);
+  }
+
+  .tcard {
+    width: 40%;
+    align-self: stretch !important;
+    background-color: rgb(43, 128, 226);
+  }
+
+  
+}
+
+@media screen and (max-width: 430px) {
+}
+
 //variables
 $bleu-vert: #2a4e5c;
 $bleu-claire: #dff7ff;
@@ -20,6 +103,7 @@ h2 {
 
 a {
   font-family: "titrage";
+  color: #2b5c2a
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

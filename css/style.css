@@ -27,10 +27,6 @@
 
 } */
 
-@font-face {
-  font-family: "titrage";
-  src: url("/font/BRLNSDB.ttf");
-}
 .titre_du_h1 {
   font-size: 4em;
 }
@@ -54,10 +50,8 @@
   background-color: rgba(238, 186, 147, 0.193);
 }
 
-
-.t-img-s {
-  min-width: 100%; /* image s'adapte à son conteneur */
-  height: auto; /* conserver les proportions */
+a {
+  font-family: "titrage";
 }
 
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
